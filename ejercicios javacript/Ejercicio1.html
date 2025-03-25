@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAW</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="validar.html" method="GET">
+        <fieldset><legend>Datos personales</legend>
+
+            <label>Nombre completo del jugador que realiza la reserva <input required="on" placeholder="nombre de Usuario" autofocus="off" value="" size="13" type="text" name="user"/><br/>
+            <label>Nombre del equipo participante <input placeholder="participante" maxlength="5" name="participante"/><br/>
+            <label>Número de participante en el juego <input placeholder="participante" maxlength="1 y 5" name="participante"/><br/>
+            <label>Correo electrónico <input placeholder="Correo electrónico" type="text" name="Correo" pattern="(0-9){8}[A-Za-z]" required="on"></label></br>
+            <label>telefono <input placeholder="telefono" type="text" name="telefono" pattern="[679][0-9]{8}" required="on"></label></br>
+            <fieldset>
+
+            <legend>Información</legend>
+
+            <label>fecha y hora de asistencia del evento <input type="datetime-local" name="fecha1"/></label></br>
+            <label>Color favorito <input type="color" value="#57ff4a"/></label></br>
+       
+            </fieldset></br>
+            <textarea name="comnetarios" rows="5" cols="80" placeholder="Escribe aqui tu comnetarios"></textarea></br>
+            
+            <button type="submit">Enviar</button>
+            <button type="submit">Linpiar</button>
+    </form> 
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Interactividad</title>
+</head>
+<body onload="iniciar()">
+    <form action="" >
+        <h1>Ejercicio de Javascripts</h1>
+    <script type="text/ejer7" src="ejer7.js">
+    </script>
+    <p>Al empezar el ejercicio se generará un número aleatorio entre el 0 y el 50,
+        ambos inclusive, pero no se mostrará
+        Escribe en la caja aquí abajo el número que piensas que es y pulsa el botón
+        Te deberá de aparecer una ventana diciendo si has acertado o, en caso contrario,
+        si el número que tienes que adivinar es mayor o menor que el tuyo.
+    </p>
+    <label for="numero">Introduce tu número</label><br>
+    <input type="number" name="numero" size="2" id="" min="0" max="50" onkeyup="adivinar(this)">
+    <input type="button" value="jugar" min onclick="jugar(this)"></br>
+
+    <span id="acertijo">tu resutado es:</span></br>
+    <span id="intentos">tus intentos es:</span>
+</body>
+</html>

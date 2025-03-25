@@ -1,0 +1,5 @@
+form{
+    background: linear-gradient(to right, rgb(0, 255, 242), rgb(255, 0, 200));
+    border: 1px solid black;
+    padding: 10%;
+}

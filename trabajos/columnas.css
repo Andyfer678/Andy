@@ -1,0 +1,31 @@
+main{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow: auto;
+    width: 840px;
+    
+}
+
+.izquierda {
+    float: left;
+    background-color: pink;
+    width: 47%;
+    padding: 1px;
+    margin-right: 1%;
+
+
+
+   
+}
+
+.derecha{
+    float: right;
+    background-color: cyan;
+    width: 49%;
+    margin-left: 1%;
+    padding: 1px;
+    outline: 3px solid black;
+    
+
+}

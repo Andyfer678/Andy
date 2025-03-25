@@ -1,0 +1,29 @@
+main{
+    width: 1000px;
+    margin: 5px auto;
+    background-color: cyan;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.contenedor{
+    width: 500px;
+    float: left;
+    background-color: burlywood ;
+}
+
+.izquierda{
+    float: left;
+}
+.derecha{
+    float: right;
+    text-align: justify;
+    padding: 20px;
+    width: 460px;
+    margin-right: -500px;
+}
+.contenedor1 .centro{
+    width: 500px;
+    float: inline-end;
+    background-color: blueviolet;
+}

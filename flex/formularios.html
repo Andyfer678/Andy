@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAW</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+    <h1>JAVACRIP</h1>
+    <form action="validar.html" method="GET">
+
+        <fieldset><legend>Introduce Usuario</legend>
+
+        <label>Usuario <input required="on" placeholder="nombre de Usuario" autofocus="off" value="" size="13" type="text" name="user"/><br/>
+            <details id="Prodefecto">
+            <option value="admin">admin</option>
+            <option value="root">root</option>
+            <option value="postmaster">postmaster</option>
+            <option value="databaseadmin">databaseadmin</option>
+        </details></br>
+        <label>Password <input placeholder="contraseña" maxlength="5" type="password" name="password"/><br/>
+        <label>dni <input type="text" name="dni" pattern="(0-9){8}[A-Za-z]" required="on"></label></br>
+        <label>telefono <input type="text" name="telefono" pattern="[679][0-9]{8}" required="on"></label></br>
+
+    </fieldset></br>
+
+
+        <fieldset><legend>Introduce opcionl</legend>
+
+        sexo:
+        <label><input type="radio" name="sexo" value="honbre" />hombre</label>
+        <label><input type="radio" name="sexo" value="mujer" />mujer</label>
+        <label><input type="radio" name="sexo" value="otro" />otro</label>
+        <label><input type="radio" name="sexo" checked="on" value="ns/nc" />ns/nc</label></br>
+        
+        sexo:
+
+        <select name="sexo">
+        <option>hombre</option>
+        <option>mujer</option>
+        <option selected="on">otro</option>
+        <option >ns/nc</option>
+        </select></br>
+
+        Aficiones:
+
+        <label><input type="checkbox" name="Aficiones" value="fulbol" />fulbol</label>
+        <label><input type="checkbox" name="Aficiones" value="canta" />canta</label>
+        <label><input type="checkbox" name="Aficiones" value="rugby" />rugby</label>
+        <label><input type="checkbox" name="Aficiones" checked="on" value="formula" />formula</label></br>
+    
+    </fieldset></br>
+        <fieldset>
+
+            <legend>Nuevos impuest</legend>
+
+            <input type="email" name="email"></br>
+            <input type="url" name="url" /></br>
+            <input type="number" name="edad" min="18" max="67" step="3"></br>
+            <input type="range" name="edad" min="18" max="67"s></br>
+            <input type="date" name="fecha1"/></br>
+            <input type="month" name="fecha2"/></br>
+            <input type="week" name="fecha3"/></br>
+            <input type="time" name="hora" min="00:00" max="19:00"/></br>
+            <input type="color" value="#57ff4a"/>
+            <input type="datetime-local" name="fecha4"/></br>
+            <input type="search" name="busqueda"/><button>busqueda</button></br>
+            <input type="tel" name="telefono"/></br>
+
+
+        </fieldset></br>
+
+        <textarea name="comnetarios" rows="5" cols="80" placeholder="Escribe aqui tu comnetarios"></textarea></br>
+        
+        <input type="submit" value="OK"/>
+        <button type="submit">Aceptar</button>
+
+        <input type="reset" value="Linpiar"/>
+        <button type="reset">Cancelar</button>
+        
+        <input type="reset" value="No lo se"/>
+        <button type="reset">Ya veremos</button>
+
+    </form> 
+</body>
+</html>

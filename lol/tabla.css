@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 20px; /* Espaciado entre celdas */
+    width: 1024px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: cyan;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+
+td {
+    padding: 10px;
+    background: linear-gradient(135deg, #cf2228, #cfbcb7); /* Degradado */
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 20px; /* Bordes redondeados */
+    font-weight: bold;
+    color: #732386;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+td:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de las celdas vacías */
+td:empty {
+    background: linear-gradient(135deg, #30078f, #c4162d); /* Degradado diferente */
+    color: transparent; /* Texto invisible */
+}
+td:nth-child(3) {
+    background-color: yellow;
+}

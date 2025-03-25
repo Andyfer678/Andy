@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, cyan, lightgreen);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid seagreen;
+    columns: 1;
+    border-radius: 40px;
+}
+
+
+.header {
+    text-align: center;
+    padding: 0px 0;
+    border-radius: 20px;
+}
+
+.header h1 {
+    margin: 5px;
+    background-color: seagreen;
+    border-radius: 20px;
+    
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(135deg, seagreen, cyan);
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+
+.column {
+    flex: 1;
+    color: white;
+    border-radius: 10px;
+    border: 10px;
+}
+
+
+.column p {
+    border: 1px dashed black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.column .box {
+    background-color: seagreen;
+    color: black;
+    border: 2px dashed black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bajo h1{
+    background-color: seagreen;
+    background: url('cabecera.jpeg');
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    max-width: 1000px;
+}

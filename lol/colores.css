@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: white url('64c8a20035395.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 1024px;
+    margin: 20px auto;
+    background: wheat;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.datos-personales {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.datos-personales h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.trabajo, .formacion ul, .otros ul {
+    margin: 0;
+    padding: 0;
+}
+
+.trabajo h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.trabajo ul, .formacion ul, .otros ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.trabajo ul li, .formacion ul li, .otros ul li {
+    margin-bottom: 5px;
+}

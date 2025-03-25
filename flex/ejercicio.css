@@ -1,0 +1,33 @@
+.boby{
+  height: auto;
+  background-color: blue;
+}
+main{
+  display: flex;
+  border: 1px solid red;
+  padding: 10px;
+  justify-content: center;
+}
+
+.caja{
+  background-color: cyan;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 15px;
+}
+.caja2{
+  background-color: blanchedalmond;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.caja3{
+  background-color: aliceblue;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
