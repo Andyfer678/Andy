@@ -6,10 +6,10 @@
     document.getElementById('numeros').innerHTML = numeros;
 }
 
-generarNumeros();*/
+generarNumeros();
 
 
-/*function generarNumerosPares(){
+function generarNumerosPares(){
     let numerosParaes = "";
     for(let i=2; i <= 50; i++){
         numerosParaes += (i * 2) +'<br>';
@@ -18,9 +18,9 @@ generarNumeros();*/
     document.getElementById('numeros-paraes').innerHTML = numerosParaes;
 }
 
-generarNumerosPares();*/
+generarNumerosPares();
 
-/*numero = "3,4"
+numero = "3,4"
 
 n= Number(numero)
 if(isNaN(n)== true)
@@ -57,7 +57,7 @@ else
     else
     titular.className = 'rojo'
 }*/
-function cambio(){
+/*function cambio(){
     element = document.createElement("h2")
     document.body.appendChild(elemento)
     elemento.innerHTML = "nuevo titular de tipo h2"
@@ -67,6 +67,4 @@ function cambio(){
     ancho = Window.innerWindth
     texto = "Accion"
 
-}
-
-
+}*/
